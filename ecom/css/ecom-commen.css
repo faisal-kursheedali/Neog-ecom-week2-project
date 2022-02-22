@@ -1,0 +1,71 @@
+.ecom-search{
+    color: black;
+    max-width: 600px;
+    width: 25%;
+}
+
+.ecom-nav,.ecom-search-container{
+    border-bottom: 2px solid var(--litegray-bg);
+}
+.ecom-content{
+    padding-top: 1rem;
+} 
+.ecom-search-container{
+    margin-top: 0px;
+    align-items: center;
+}
+.ecom-nav-catagory{
+    margin: auto .5rem;
+    cursor: pointer;
+}
+
+.ecom-filter-head{
+    
+    margin: 1rem;
+    font-size:1.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    background-color: var(--blue-bg);
+    color:var(--blue-clr);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+.ecom-filter-icn{
+    font-size: inherit;
+}
+.ecom-filter-part{
+    display: none;
+    width: 200px;
+    background-color: var(--blue-bg);
+    border: 2px solid var(--blue-clr);
+    color: black;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.filter-price,.filter-catagory,.filter-rating{
+    padding: 4px;
+    border-bottom: 2px solid var(--darkgray-bg);
+}
+.filter-cancel,.filter-done{
+    font-size: 1.3rem;
+    border-radius: 0px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: .3rem;
+}
+.filter-done{
+    background-color: var(--green-bg);
+    color: var(--green-clr);
+}
+@media(max-width:426px){
+    .ecom-search-container .nav-main-logo{
+        display: block;
+    }
+}
+@media (max-width:600px) {
+    .ecom-nav-catagory{
+        display: none;
+    }
+    
+}
