@@ -1,0 +1,32 @@
+@import url(../../component-lib/import.css);
+@import url(../../ecom/ecom.css);
+
+
+
+.ecom-hmpg-box{
+    margin: 2rem auto;
+    border: 2px solid gray;
+    
+}
+.ecom-hmpg-viewmore{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid var(--gray-bg);
+}
+.ecom-hmpg-viewmore button{
+    margin-left: auto;
+}
+.ecom-hmpg-sm-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.ecom-hmpg-sm-card-container::-webkit-scrollbar{
+    height: 0px;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
